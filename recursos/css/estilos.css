@@ -1,0 +1,1098 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Abel", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+/*  new style */
+.galeria {
+  padding-top: 35px;
+}
+.title-galeria p {
+  text-align: center;
+  font-size: 44px;
+}
+.item {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+.item:hover {
+  filter: brightness(80%);
+}
+
+.button-event {
+  margin: 0 auto;
+}
+/* end new style */
+
+#nav {
+  background-color: #222 !important;
+  padding: 15px 0;
+  color: white;
+}
+
+.cabecera_fija {
+  padding: 20px 15px;
+}
+
+.social-networks {
+  display: inline-block;
+}
+
+.social-networks li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ocultar {
+}
+.ocultar_2 {
+  display: none;
+}
+.navbar-toggler-icon {
+  border-color: white !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+#header {
+  position: relative;
+}
+
+/* Style new */
+
+.imagen-evento-logos {
+  max-width: 100%;
+  position: absolute;
+}
+.imagen-evento-logos .logo-event {
+  position: absolute;
+  left: 0;
+  max-width: 220px;
+  padding: 15px 0 0 15px;
+}
+
+.text-event {
+  right: 0;
+  position: absolute;
+  padding: 15px 15px 0 0;
+}
+
+.info-event {
+  width: 100%;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.info-event img {
+  max-width: 800px;
+}
+
+.info-sub {
+  width: 100%;
+  text-align: center;
+}
+.info-sub img {
+  max-width: 900px;
+}
+
+.info-precios {
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.info-precios img {
+  max-width: 900px;
+}
+
+/* end Style new */
+
+.titu {
+  font-size: 19px;
+}
+
+.tit {
+  color: #000;
+  font-size: 19px;
+}
+
+.bloque_evento {
+  margin-bottom: 60px;
+  color: #c1292e;
+  text-align: left;
+}
+
+.bloque_evento h3 {
+  font-size: 24px;
+}
+.bloque_evento p {
+  color: #7b7b7b;
+}
+
+.banner-fae {
+  height: auto;
+  position: relative;
+}
+
+.banner-1 {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+
+.banner-1-1 {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+.live {
+  background: #0094da;
+  color: #fff;
+  position: absolute;
+  padding: 6px 19px;
+  border-radius: 6px;
+  left: 14px;
+  top: 16px;
+  z-index: 999;
+}
+
+.live_2 {
+  background: #ff0d0d;
+  color: #fff;
+  position: absolute;
+  padding: 6px 19px;
+  border-radius: 6px;
+  right: 25px;
+  top: 25px;
+  z-index: 999;
+}
+
+.titulo_general {
+  margin-bottom: 40px;
+}
+
+.banner-2 {
+  position: absolute;
+  top: 415px;
+  left: 720px;
+}
+
+.banner-2-2 {
+  position: absolute;
+  top: 350px;
+  left: 600px;
+}
+
+.banner-3 {
+  position: absolute;
+  top: 270px;
+  left: 800px;
+}
+
+.banner-3-3 {
+  position: absolute;
+  top: 220px;
+  left: 670px;
+}
+
+.banner-4 {
+  position: absolute;
+  top: 240px;
+  left: 620px;
+}
+
+.banner-4-4 {
+  position: absolute;
+  top: 200px;
+  left: 530px;
+}
+
+.banner-5 {
+  position: absolute;
+  top: 20px;
+  left: 890px;
+}
+
+.banner-5-5 {
+  position: absolute;
+  top: 20px;
+  left: 760px;
+}
+
+.banner-6 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.banner-6-6 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+h1 {
+  color: #616266;
+}
+
+.lines {
+  margin-bottom: 50px;
+}
+
+.color-1 {
+  width: 20%;
+  height: 5px;
+  background-color: #d94090;
+  margin: 0;
+}
+
+.color-2 {
+  width: 20%;
+  height: 5px;
+  background-color: #005aa8;
+  margin: 0;
+  padding: 0;
+}
+.color-3 {
+  width: 20%;
+  height: 5px;
+  background-color: #9af7e5;
+  margin: 0;
+  padding: 0;
+}
+.color-4 {
+  width: 20%;
+  height: 5px;
+  background-color: #f7c464;
+  margin: 0;
+  padding: 0;
+}
+.color-5 {
+  width: 20%;
+  height: 5px;
+  background-color: #ef8070;
+  margin: 0;
+  padding: 0;
+}
+
+.eventos {
+  background: url("../img/background_event.jpg");
+}
+.events figure {
+  justify-content: center;
+  justify-items: center;
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+
+  list-style: none;
+  text-align: center;
+}
+
+.logo_fiaed {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.btn-outline-warning {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-warning:hover {
+  color: #212529;
+  background-color: #9af7e5;
+  border-color: #9af7e5;
+}
+
+.btn-outline-warning:not(:disabled):not(.disabled).active,
+.btn-outline-warning:not(:disabled):not(.disabled):active,
+.show > .btn-outline-warning.dropdown-toggle {
+  color: #212529;
+  background-color: #9af7e5;
+  border-color: #9af7e5;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 7px solid;
+  border-bottom-color: #f6b428;
+}
+
+.grid .line-inter {
+  border-bottom: 0 solid;
+  border-bottom-color: #e40000;
+}
+
+.grid figure img {
+  position: relative;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  font-weight: 600;
+  padding: 1.8em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect-oscar {
+  background: #e40000;
+  background: #e40000;
+}
+
+figure.effect-oscar:hover {
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(100, 165, 176, 1);
+  -moz-box-shadow: 0px 0px 17px 2px rgba(100, 165, 176, 1);
+  box-shadow: 0px 0px 17px 2px rgba(100, 165, 176, 1);
+}
+
+figure.effect-oscar img {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-oscar figcaption {
+  background-color: rgba(255, 255, 255, 0.068);
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+}
+
+figure.effect-oscar figcaption::before {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+  border: 1px solid #bb5151;
+  content: "";
+  border-radius: 8px;
+}
+
+figure.effect-oscar h2 {
+  margin: 20% 0 10px 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-oscar:hover figcaption {
+  background-color: rgba(58, 52, 42, 0);
+}
+
+figure.effect-oscar:hover img {
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 50em) {
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+#modal1-header {
+  height: 220px;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal2-header {
+  height: 220px;
+  background: url("../img/imagenes/2/recordar.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal3-header {
+  height: 220px;
+  background: url("../img/imagenes/2/knot.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal4-header {
+  height: 220px;
+  background: url("../img/imagenes/2/el-hombre.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal5-header {
+  height: 220px;
+  background: url("../img/imagenes/2/hace-una-hora.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal6-header {
+  height: 220px;
+  background: url("../img/imagenes/2/nave.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal7-header {
+  height: 220px;
+  background: url("../img/imagenes/2/carguyoc.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal8-header {
+  height: 220px;
+  background: url("../img/imagenes/2/patron-leal.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal9-header {
+  height: 220px;
+  background: url("../img/imagenes/2/una-breve-historia.jpg") no-repeat center
+    center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal10-header {
+  height: 220px;
+  background: url("../img/imagenes/2/este-lugar.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal11-header {
+  height: 220px;
+  background: url("../img/imagenes/2/hamlet.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal12-header {
+  height: 220px;
+  background: url("../img/imagenes/2/orlando.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal13-header {
+  height: 220px;
+  background: url("../img/imagenes/2/el-apellido.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal14-header {
+  height: 220px;
+  background: url("../img/imagenes/2/la-terapeuta.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal15-header {
+  height: 220px;
+  background: url("../img/imagenes/2/fin.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal16-header {
+  height: 220px;
+  background: url("../img/imagenes/2/camargo.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal17-header {
+  height: 220px;
+  background: url("../img/imagenes/2/la-carta.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+#modal18-header {
+  height: 220px;
+  background: url("../img/imagenes/2/ahora.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  width: 100%;
+}
+
+.color1 {
+  background-color: #fcb913;
+  height: 6px;
+}
+
+.tit_popup {
+  margin-top: 5px;
+}
+
+.cuerpo_popup p {
+  text-align: justify;
+}
+
+.btn-outline-danger_2 {
+  color: #fff;
+  background: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger_2:hover {
+  color: #ffa0a0;
+  background: #b50011;
+  border-color: #b50011;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #c1272d;
+  border-color: #c1272d;
+  margin-bottom: 10px;
+  padding: 15px 40px;
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+.ban_fiaed {
+  width: 100%;
+}
+
+.btn-secondary {
+  color: #7d7d7d;
+  background-color: #6c757d00;
+  border-color: #6c757d00;
+}
+
+.color1.ointer {
+  background-color: #bdbdbd;
+  height: 1px;
+  margin: 5px 0 12px;
+}
+.modal-body {
+  font-family: "Abel", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 250px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-footer {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+.btn-tlk {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* .banner-fae{
+    height: 250px;
+    background: url('../img/imagenes/2/astronautas.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: top;
+} */
+
+/* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+ */
+
+/* a {
+    outline: none;
+    color: #3498db;
+    text-decoration: none;
+} */
+
+/* a:hover, a:focus {
+    color: #528cb3;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.content > h2 {
+    clear: both;
+    margin: 0;
+    padding: 4em 1% 0;
+    color: #484B54;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.content > h2:first-child {
+    padding-top: 0em;
+} */
+
+/* Demo ad design */
+
+@media screen and (max-width: 25em) {
+  .codrops-header {
+    font-size: 75%;
+  }
+  .codrops-icon span {
+    display: none;
+  }
+}
+
+/*---------------*/
+
+.social {
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  margin: 5px;
+}
+
+.social a i:hover {
+  color: red;
+}
+
+.social a i {
+  color: white;
+  font-size: 22px;
+}
+
+#footer a:hover {
+  color: red;
+}
+
+svg:hover {
+  transform: scale(1.25, 1.25) rotate(20deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #222;
+  min-height: 80px;
+  color: white;
+  align-content: space-around;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#footer p {
+  font-weight: 700;
+  font-size: 24px;
+}
+.container-social-fae {
+  justify-content: center;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: 'Abel', sans-serif;
+    font-family: 'Oswald', sans-serif;*/
+  align-items: center;
+}
+
+.social-fae {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#footer .social-fae a:hover {
+  color: #3085a3;
+}
+
+#footer .icon-svg {
+  border-right: 1px solid white;
+}
+
+#footer .icon-svg:nth-last-child(2) {
+  border-right: none;
+}
+
+.footer-logo img {
+  height: 49px;
+}
+
+#footer .icono-svg svg {
+  height: 68px;
+  justify-content: center;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.recursos {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.recursos-obras {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.color-obras {
+  width: 15px;
+  height: 15px;
+  background-color: #f6b428;
+  border-radius: 15px;
+}
+.color-obras-2 {
+  width: 15px;
+  height: 15px;
+  background-color: #e43238;
+  border-radius: 15px;
+}
+
+/*  @media only screen and (max-width:900px) {
+   
+.banner-1-1{
+    display: none
+}
+
+.banner-2-2{
+    display: none
+}
+
+.banner-3-3{
+    display: none
+}
+
+.banner-4-4{
+    display: none
+}
+
+.banner-5-5{
+    display: none
+}
+
+.banner-6-6{
+    display: none
+}
+
+.banner-0{
+    display: none
+}
+
+
+
+ } */
+
+@media only screen and (max-width: 1200px) {
+  .event-list .desct img {
+    max-height: 65px;
+  }
+
+  .banner-1 {
+    display: none;
+  }
+  .banner-2 {
+    display: none;
+  }
+  .banner-3 {
+    display: none;
+  }
+  .banner-4 {
+    display: none;
+  }
+  .banner-5 {
+    display: none;
+  }
+  .banner-6 {
+    display: none;
+  }
+
+  .banner-0 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1199px) {
+  .banner-final {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .grid figure figcaption {
+    font-weight: 600;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .event-list .desct img {
+    max-height: 55px;
+  }
+
+  .modal-header {
+    height: 150px !important;
+  }
+  .info-sub img {
+    max-width: 100%;
+  }
+  .info-precios img {
+    max-width: 100%;
+  }
+  .info-event img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .imagen-evento-logos .logo-event {
+    max-width: 15%;
+  }
+  .text-event {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (min-width: 767px) {
+  .banner-res {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo-event,
+  .text-event {
+    display: none;
+  }
+  .grid figure figcaption {
+    padding-top: 80px;
+    font-size: 1.4em;
+  }
+
+  .ocultar {
+    display: none;
+  }
+  .ocultar_2 {
+    display: block;
+  }
+
+  .header-responsive {
+    background: url("../img/banner-sports.jpg") center center no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+  .title-galeria p {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .event-list .desct img {
+    max-height: 90px;
+  }
+  .grid figure figcaption {
+    padding-top: 80px;
+
+    font-size: 1em;
+  }
+
+  .modal-header {
+    height: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 486px) {
+  .grid figure figcaption {
+    padding: 1em;
+
+    font-size: 1em;
+  }
+
+  .modal-header {
+    height: 80px !important;
+  }
+
+  .events h1 {
+    font-size: 24px !important;
+  }
+
+  .events small {
+    font-size: 14px !important;
+  }
+
+  .events p {
+    font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .modal-header {
+    height: 70px !important;
+  }
+  .events small {
+    font-size: 11px !important;
+  }
+
+  .events p {
+    font-size: 9px !important;
+  }
+}
