@@ -24,6 +24,18 @@ body {
 .button-event {
   margin: 0 auto;
 }
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.column-galery {
+  padding-bottom: 40px;
+}
+
 /* end new style */
 
 #nav {
@@ -110,6 +122,28 @@ body {
   max-width: 900px;
 }
 
+.close {
+  color: white;
+}
+
+.column-galery {
+  text-emphasis: center;
+  justify-content: center;
+}
+.link-modal {
+  padding: 0;
+}
+.link-modal img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.item p {
+  text-align: center;
+}
+
+.item a img {
+  object-fit: cover;
+}
 /* end Style new */
 
 .titu {
@@ -495,160 +529,6 @@ figure.effect-oscar:hover img {
   width: 100%;
 }
 
-#modal2-header {
-  height: 220px;
-  background: url("../img/imagenes/2/recordar.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal3-header {
-  height: 220px;
-  background: url("../img/imagenes/2/knot.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal4-header {
-  height: 220px;
-  background: url("../img/imagenes/2/el-hombre.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal5-header {
-  height: 220px;
-  background: url("../img/imagenes/2/hace-una-hora.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal6-header {
-  height: 220px;
-  background: url("../img/imagenes/2/nave.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal7-header {
-  height: 220px;
-  background: url("../img/imagenes/2/carguyoc.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal8-header {
-  height: 220px;
-  background: url("../img/imagenes/2/patron-leal.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal9-header {
-  height: 220px;
-  background: url("../img/imagenes/2/una-breve-historia.jpg") no-repeat center
-    center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal10-header {
-  height: 220px;
-  background: url("../img/imagenes/2/este-lugar.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal11-header {
-  height: 220px;
-  background: url("../img/imagenes/2/hamlet.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal12-header {
-  height: 220px;
-  background: url("../img/imagenes/2/orlando.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal13-header {
-  height: 220px;
-  background: url("../img/imagenes/2/el-apellido.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal14-header {
-  height: 220px;
-  background: url("../img/imagenes/2/la-terapeuta.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal15-header {
-  height: 220px;
-  background: url("../img/imagenes/2/fin.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal16-header {
-  height: 220px;
-  background: url("../img/imagenes/2/camargo.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal17-header {
-  height: 220px;
-  background: url("../img/imagenes/2/la-carta.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
-#modal18-header {
-  height: 220px;
-  background: url("../img/imagenes/2/ahora.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: top;
-  color: white;
-  width: 100%;
-}
-
 .color1 {
   background-color: #fcb913;
   height: 6px;
@@ -704,18 +584,7 @@ figure.effect-oscar:hover img {
   height: 1px;
   margin: 5px 0 12px;
 }
-.modal-body {
-  font-family: "Abel", sans-serif;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  max-height: 250px;
-  -webkit-overflow-scrolling: touch;
-}
 
-.modal-footer {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-}
 .btn-tlk {
   padding-left: 20px;
   padding-right: 20px;
@@ -985,9 +854,6 @@ svg:hover {
     max-height: 55px;
   }
 
-  .modal-header {
-    height: 150px !important;
-  }
   .info-sub img {
     max-width: 100%;
   }
