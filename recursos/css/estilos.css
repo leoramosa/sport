@@ -15,7 +15,7 @@ body {
 .item {
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 .item:hover {
   filter: brightness(80%);
